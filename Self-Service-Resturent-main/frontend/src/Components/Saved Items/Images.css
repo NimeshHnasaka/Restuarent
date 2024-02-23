@@ -1,0 +1,40 @@
+/* Styles for Images Component */
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Heading styles */
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* List styles */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* List item styles */
+  li {
+    margin-bottom: 20px;
+  }
+  
+  /* Image styles */
+  img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc; /* Add a border to images */
+  }
+  
+  /* Paragraph styles */
+  p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #666;
+  }

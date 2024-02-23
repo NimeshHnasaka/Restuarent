@@ -1,0 +1,51 @@
+/* TotalBill.css */
+
+/* Container styles */
+.total-bill-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    width: 70vh;
+    background-color: #f5f5f5;
+    padding: 70px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title styles */
+  .total-bill-title {
+    font-size: 24px;
+    color: #333;
+    margin: 20px 0; /* Adjust top and bottom margin */
+    text-align: center; /* Center text horizontally */
+  }
+  
+  /* List styles */
+  .total-bill-list {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px; /* Add margin at the bottom of the list */
+  }
+  
+  /* List item styles */
+  .total-bill-list li {
+    margin-bottom: 5px;
+  }
+  
+  /* Button styles */
+  .confirm-button {
+    padding: 10px 20px;
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .confirm-button:hover {
+    background-color: #27ae60;
+  }
